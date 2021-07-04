@@ -62,14 +62,14 @@ p {
   box-shadow: 10px 10px 40px gray;
   margin: 0 5%;
   padding: 0 3%;
-  border-width: 7px;
-  border-style: solid;
-  border-image: linear-gradient(to top, tomato, salmon) 1 0 1 100%;
+  border-left: 7px solid;
+  border-image: linear-gradient(to top, tomato, salmon);
+  border-image-slice: 1;
 }
 #web-dev-exp {
-  border-width: 7px;
-  border-style: solid;
-  border-image: linear-gradient(to top, mediumaquamarine, blue) 1 0 1 100%;
+  border-left: 7px solid;
+  border-image: linear-gradient(to top, mediumaquamarine, blue);
+  border-image-slice: 1;
 }
 .footer {
   text-align: center;
